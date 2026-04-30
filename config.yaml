@@ -1,0 +1,36 @@
+# config.yaml - 环境配置模板
+app:
+  name: "eyetrack_app"
+  version: "1.0.0"
+
+# 模型配置
+models:
+  # 将 .pt 模型文件放入 models/ 目录
+  available:
+    - name: "baseline"
+      file: "baseline.pt"
+      url: "YOUR_BASELINE_MODEL_URL_HERE"
+    - name: "ghost"
+      file: "ghost.pt"
+      url: "YOUR_GHOST_MODEL_URL_HERE"
+    - name: "gp"
+      file: "gp.pt"
+      url: "YOUR_GP_MODEL_URL_HERE"
+    - name: "pruned"
+      file: "pruned.pt"
+      url: "YOUR_PRUNED_MODEL_URL_HERE"
+
+# Python 依赖
+dependencies:
+  - python>=3.8
+  - opencv-python
+  - numpy
+  - PyQt5
+  - ultralytics
+  - torch>=1.9.0
+  - torchvision
+
+# 运行方式
+run:
+  main: "python ui_main.py"
+  alt: "python main.py"
