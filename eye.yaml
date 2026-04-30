@@ -1,0 +1,7 @@
+path: C:\Desktop\graduate_design\label\0001_copy\YOLODataset_25_4_8
+train: images\train\
+val: images\val\
+
+nc: 1
+
+names: ['pupil']

@@ -1,0 +1,23 @@
+#path: /home/cuijiahao/project/yolo/
+#train: YOLODataset/images/train/
+#val: YOLODataset/images/val/
+#
+#nc: 1
+#
+#names: ['pupil']
+
+#path: C:\Desktop\graduate_design\label\0001_copy\YOLODataset_25_4_8
+#train: images\train\
+#val: images\val\
+#
+#nc: 1
+#
+#names: ['pupil']
+
+path: C:\Desktop\graduate_design\label\0001_copy\420\output_noisy_pngs
+train: blur_3\
+val: val
+
+nc: 1
+
+names: ['pupil']
